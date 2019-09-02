@@ -32,7 +32,24 @@
     &__dscr {
         margin-bottom: 38px;
     }
-    &_line {
-        margin-bottom: 31px;
+
+    &-icons {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icons {
+        margin-top: 31px;
+    }
+    &-icon {
+        width: 258px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
     }
 }
