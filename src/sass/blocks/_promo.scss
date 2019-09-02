@@ -2,4 +2,37 @@
     min-height: 650px;
     padding: 21px 0 93px 0;
     background: url(../img/main_bg.jpg) center (center/cover) no-repeat;
+    &_wrapper {
+        text-align: center;
+    }
+    &-title {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__title {
+        margin-bottom: 26px;
+    }
+    &-subtitle {
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__subtitle {
+        margin-bottom: 9px;
+    }
+    &-dscr {
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    &__dscr {
+        margin-bottom: 38px;
+    }
+    &_line {
+        margin-bottom: 31px;
+    }
 }
