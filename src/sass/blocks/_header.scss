@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo {
+        width: 96px;
+        img {
+            width: 100%;
+        }
+    }
+    &-nav {
+        width: 604px;
+        display: flex;
+        justify-content: space-between;
+        
+        a {
+            color:#fff;
+            font-size: 15px;
+            font-weight: 400;
+            text-decoration: none;
+            border-right: 1px dotted #656871;
+            padding-right: 14px;
+            &:last-child {
+                border-right: none;
+                padding-right: 0; 
+            }
+            &:hover {
+                color: $main-color;
+                text-decoration: underline;
+            }
+        }
+    }
+    &__nav {
+        margin: 0 50px;
+    }
+    &-contacts {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;  
+    }
+    &__contacts {
+        margin-right: 19px;
+    }
+    &-contacts-text {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__phone {
+        color: #fff;
+        font-size: 19px;
+        font-weight: 700;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

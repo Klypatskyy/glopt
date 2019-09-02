@@ -1,0 +1,14 @@
+.buttons {
+    background-color: $main-color;
+    width: 160px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    &_header {
+        padding: 18px 23px;
+    }
+}
