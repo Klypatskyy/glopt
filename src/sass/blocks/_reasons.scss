@@ -1,0 +1,30 @@
+.reasons {
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &__item {
+            flex-basis: 50%;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            padding-right: 50px;
+        }
+        &__image {
+            margin-right: 17px;
+        }
+        &__content {
+            &__title {
+                color: $main-color;
+                font-size: 16px;
+                font-weight: 700;
+            }
+            &__text {
+                color: #3a3a3a;
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+}

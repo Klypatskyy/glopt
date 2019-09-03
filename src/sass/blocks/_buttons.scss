@@ -11,4 +11,17 @@
     &_header {
         padding: 18px 23px;
     }
+    &-promo {
+        width: 230px;
+        height: 57px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__promo {
+        margin-top: 60px;
+    }
 }

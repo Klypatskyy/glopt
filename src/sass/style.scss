@@ -12,3 +12,19 @@ html {
 @import 'blocks/buttons';
 @import 'blocks/promo';
 @import 'blocks/header';
+@import 'blocks/reasons';
+
+.section {
+    margin:58px 0 51px 0;
+    &-title {
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__title {
+        margin-bottom: 32px;
+        text-align: center;
+    }
+}
+
