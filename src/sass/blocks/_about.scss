@@ -1,0 +1,35 @@
+.about {
+    &-line {
+        display: block;
+        border: 1px solid $main-color;
+        width: 148px;
+        margin: 0 auto;
+    }
+    &__line {
+        margin-bottom: 10px;
+    }
+    &-text {
+        text-align: center;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+    }
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 360px;
+            text-align: center;
+        }
+        &__image {
+            margin-bottom: 27px;
+        }
+        &__title {
+            margin-bottom: 18px;
+        }
+    }
+}

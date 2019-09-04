@@ -13,6 +13,7 @@ html {
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/reasons';
+@import 'blocks/about';
 
 .section {
     padding: 58px 0 51px 0;
@@ -25,6 +26,19 @@ html {
     &__title {
         margin-bottom: 32px;
         text-align: center;
+    }
+}
+
+.block {
+    &__title {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__text {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
     }
 }
 
