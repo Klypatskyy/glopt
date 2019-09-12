@@ -24,4 +24,14 @@
     &__promo {
         margin-top: 60px;
     }
+    &__prise {
+        margin-bottom: 25px;
+    }
+    &__submit {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: 180px;
+    }
 }
