@@ -1,0 +1,16 @@
+.scheme {
+    background-color: #f3f3f3;
+    &-block {
+        
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        &__item {
+            flex-basis: 20%;
+            margin-right: 35px;
+            margin-bottom: 25px;
+        }
+    }
+}
