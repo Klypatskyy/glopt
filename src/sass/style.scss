@@ -19,6 +19,9 @@ html {
 @import 'blocks/consultation';
 @import 'blocks/managers';
 @import 'blocks/scheme';
+@import 'blocks/reviews';
+@import 'blocks/carousel';
+@import 'blocks/slick';
 
 .section {
     padding: 58px 0 51px 0;
@@ -31,6 +34,12 @@ html {
     &__title {
         margin-bottom: 32px;
         text-align: center;
+    }
+    &-text {
+        text-align: center;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
     }
 }
 

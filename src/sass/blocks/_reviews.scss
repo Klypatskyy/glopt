@@ -1,0 +1,11 @@
+.reviews {
+  &-line {
+    display: block;
+    border: 1px solid $main-color;
+    width: 148px;
+    margin: 0 auto;
+  }
+  &__line {
+    margin-bottom: 10px;
+}
+}
